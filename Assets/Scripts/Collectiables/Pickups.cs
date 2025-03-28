@@ -15,9 +15,11 @@ public class PICKUP : MonoBehaviour
 
 
 
-    private void OnTriggerEnter(Collider other)
+    
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.tag == "Player")
+        if (collision.collider.tag == "Player")
         {
 
             GameObject.Destroy(pickupobject, 0.5f);
