@@ -11,5 +11,5 @@ https://github.com/GitAddd/Tutorials-prog/blob/main/Assets/Scripts/Movement/Play
 https://github.com/GitAddd/Tutorials-prog/blob/main/Assets/Scripts/Tutorial%203%20movement/Movement.cs en https://github.com/GitAddd/Tutorials-prog/blob/main/Assets/Scripts/Jump/Tut%203%20jump.cs
 
 # Pick up
-![oppakken](https://github.com/GitAddd/Tutorials-prog/blob/main/Tutorials%20-%20pickups%20-%20Windows%2C%20Mac%2C%20Linux%20-%20Unity%206%20(6000.0.33f1)_%20_DX11_%202025-03-28%2012-39-29.gif)
+![oppakken](https://github.com/GitAddd/Tutorials-prog/blob/main/Tutorials%20-%20pickups2%20-%20Windows%2C%20Mac%2C%20Linux%20-%20Unity%206%20(6000.0.33f1)_%20_DX11_%202025-03-28%2014-20-05.gif)
 https://github.com/GitAddd/Tutorials-prog/blob/main/Assets/Scripts/Collectiables/Pickups.cs
