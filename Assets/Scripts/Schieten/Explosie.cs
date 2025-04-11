@@ -9,7 +9,6 @@ public class Explosion : MonoBehaviour
     [SerializeField] private GameObject particle;
     [SerializeField] private GameObject explosion;
     [SerializeField] private string tag;
-    public GameObject player;
 
 
     void Start()
@@ -28,14 +27,11 @@ public class Explosion : MonoBehaviour
 
         if (collision.collider.tag == tag)
         {
-            explosion = Instantiate(particle, transform.position, transform.rotation);
+            Destroy(collision.gameObject);
+                        explosion = Instantiate(particle, transform.position, transform.rotation);
             Destroy(explosion, 2f);
-            Destroy(this.transform.gameObject);
 
-            if (tag == "Enemy")
-            {
-                Destroy(this.transform.gameObject);
-            }
+
         }
 
     }
